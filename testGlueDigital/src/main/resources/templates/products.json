@@ -9,7 +9,7 @@
       "id": 2,
       "name": "CONTRASTING FABRIC T-SHIRT",
       "Sales_Units": 50,
-      "stocks": {"S":35, "M":9, "L":9 }
+      "Stocks": {"S":35, "M":9, "L":9 }
     },
     {
       "id": 3,
