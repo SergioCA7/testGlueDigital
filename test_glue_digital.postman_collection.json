@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "64786ddc-a506-4627-adaf-af2ee70838c3",
+		"name": "test glue digital",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25200135"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/testgluedigital/generalOrder?stockRatioWeight=2.0&unitSalesWeight=3.0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/testgluedigital/generalOrder?stockRatioWeight=2.0&unitSalesWeight=3.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"testgluedigital",
+						"generalOrder"
+					],
+					"query": [
+						{
+							"key": "stockRatioWeight",
+							"value": "2.0"
+						},
+						{
+							"key": "unitSalesWeight",
+							"value": "3.0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
